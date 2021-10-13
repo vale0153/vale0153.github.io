@@ -4,5 +4,33 @@ body {
 }
 
 header, footer {
-    background-color: black;
+    background-color: lightblue;
+}
+
+.site-title {
+        color: blue;
+}
+
+#my-image {
+    box-shadow: 0 2px 1px rgb(0, 0, 0)
+}
+
+li {
+    list-style: square;
+}
+
+li:nth-child(odd) {
+    background: lightcyan;
+}
+
+a {
+    text-decoration: none;
+    border: 1px solid black;
+    background-color: lightyellow;
+    
+}
+
+a:hover {
+    background-color: rgb(216, 216, 47);
+
 }
