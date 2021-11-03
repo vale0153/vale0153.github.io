@@ -9,9 +9,7 @@ html{
 }
 
 ul{
-    list-style:none;
-    
-  
+    list-style:none; 
 }
 
 nav{
@@ -36,7 +34,6 @@ a{
   float:left;
 }
 
-
 h1{
     position:relative;
 z-index: 100;   
@@ -48,16 +45,15 @@ color:white;
 #my-image{
     position: relative;
     z-index:90;
-   
 }
 
 .contact{
     font-size: 30px;
     border-style: solid;
-    border-top:slategrey, solid, 20px  ;
-    border-left:slategrey, solid, 20px  ;
-    border-bottom:slategrey, solid, 20px  ;
-    border-right:slategrey, solid, 20px  ;
+    border-top:slategrey solid 20px  ;
+    border-left:slategrey solid 20px  ;
+    border-bottom:slategrey solid 20px  ;
+    border-right:slategrey solid 20px  ;
     padding: 10px;
 }
 
