@@ -1,12 +1,33 @@
 body{
     background-color:#aad4cf ;
-    width: 1230px;
+    width: 1025px;
     margin: auto;
+}
+
+html{
+    background-color:#6a5acd;
+}
+
+ul{
+    list-style:none;
+    
+  
 }
 
 nav{
     overflow:hidden;
-    list-style:none;
+}
+
+a{
+    float:left;
+    padding:125px;
+    border-left-color: slategrey;
+    border-right-color: slategrey;
+    border-top-color: slategrey;
+    border-bottom-color: slategrey;
+    border-width: 10px;
+    border-style: double;
+    font-size: 20px
 }
 
 #my-wide-image {
@@ -25,6 +46,20 @@ color:white;
 }
 
 #my-image{
-    position: static;
+    position: relative;
     z-index:90;
+   
+}
+
+h4{
+    font-size: 30px;
+}
+
+.contact{
+    border-style: solid;
+    border-top:slategrey, solid, 20px  ;
+    border-left:slategrey, solid, 20px  ;
+    border-bottom:slategrey, solid, 20px  ;
+    border-right:slategrey, solid, 20px  ;
+    padding: 10px;
 }
