@@ -1,12 +1,30 @@
 body{
     background-color:#aad4cf ;
+    width: 1230px;
+    margin: auto;
 }
 
 nav{
     overflow:hidden;
+    list-style:none;
 }
 
-img{
-    padding:8px;
-float:left;
+#my-wide-image {
+  height:250px;
+  width:250px;
+  float:left;
+}
+
+
+h1{
+    position:relative;
+z-index: 100;   
+top: 200px;
+left:425px;
+color:white;
+}
+
+#my-image{
+    position: static;
+    z-index:90;
 }
