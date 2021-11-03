@@ -51,11 +51,8 @@ color:white;
    
 }
 
-h4{
-    font-size: 30px;
-}
-
 .contact{
+    font-size: 30px;
     border-style: solid;
     border-top:slategrey, solid, 20px  ;
     border-left:slategrey, solid, 20px  ;
@@ -63,3 +60,7 @@ h4{
     border-right:slategrey, solid, 20px  ;
     padding: 10px;
 }
+
+
+
+  
