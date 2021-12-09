@@ -66,9 +66,51 @@ html{
                     Header
 **************************************************/
 header{
-    position:relative;
+   
+	background-color:#c78c06;
+	border:10px #222 solid;
 }
 
-.my-image-b{
-    
+
+
+/**************************************************
+                    Nav
+**************************************************/
+
+.header ul{
+	text-align:center;
+	background-color:#222;
+}
+
+.header li{
+	padding:20px;
+}
+
+.header ul li a span{ 
+	color:white;
+}
+
+/**************************************************
+                    Article
+**************************************************/
+
+
+.welcome h2{
+    position:absolute;
+	top:70%;
+    text-align:center;
+    font-size:3.5rem;
+    color:white;
+}
+
+.welcome p{
+	position:absolute;
+	top:100%;
+    text-align:center;
+    font-size:1rem;
+    color:white;
+}
+
+.connect{
+	
 }
