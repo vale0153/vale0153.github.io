@@ -119,6 +119,10 @@ h1{
 	width:100%;
 }
 
+.welcome{
+	position:relative;
+}
+
 /**************************************************
                     About Us
 **************************************************/
@@ -300,6 +304,31 @@ button{
 	padding:10px;
 }
 
+.vision{
+	position:relative;
+}
+
+h4{
+	font-size:xx-large;
+	font-weight:bold;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:10px;
+}
+
+.stuff{
+	color:white;
+	width:95%;
+	position:absolute;
+	padding:10px;
+	top:45px;
+}
+
+#vision-image{
+	width:100%;
+	
+}
+
 /**************************************************
                     Team
 **************************************************/
@@ -345,7 +374,6 @@ button{
 	padding-bottom:20px;
 	padding-left:10px;
 }
-
 
 
 .cfo{
@@ -454,4 +482,18 @@ footer{
 .span{
 	color:#c78c06;
 	text-decoration: underline;
+}
+
+/**************************************************
+                    Desktop Mockup- Media Queries
+**************************************************/
+
+@media screen and (min-width: 760px){
+
+    .container{
+        margin: 0 auto;
+        width: 80%;
+        max-width: 1200px;
+    }
+
 }
