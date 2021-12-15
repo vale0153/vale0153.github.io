@@ -58,8 +58,8 @@ html{
 }
 
 .container{
-    width:1200px;
-    margin:0 auto 10px;
+	width: 100vw;
+    height: 100vh;
 }
 
 /**************************************************
@@ -71,11 +71,85 @@ header{
 	border:10px #222 solid;
 }
 
+#search{
+    font-size: 15px;
+    width: 81%;
+    float: left;
+    padding: 14px;
+}
 
 
+.hotdog{
+    color: #c78c06;
+    border: 1px solid #c78c06;
+}
+
+h1{
+	font-size:70px;
+	font-weight:bold;
+	padding:10px;
+	margin-bottom:10px;
+}
+
+.welcome-banner {
+	position: absolute;
+    top: 50px;
+    background-color: rgba(34, 34, 34, 0.555);
+    color: white;
+    width: 98%;
+    padding: 10px;
+}
+
+
+
+.connectyboi{
+    background-color: #c78c06;
+    color: #222;
+    padding: 32px 15px;
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px;
+}
+
+#my-image-b{
+	width:100%;
+}
+
+/**************************************************
+                    About Us
+**************************************************/
+
+.about-us{
+	background-color:#ffe6ac;
+	padding:15px;
+}
+
+#my-image-2{
+	width:100%;
+}
+
+h2{
+	font-size:70px;
+	font-weight:bold;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:10px;
+}
+
+.services{
+	font-size:70px;
+	font-weight:bold;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:10px;
+}
 /**************************************************
                     Nav
 **************************************************/
+
+a{
+	text-decoration: none;
+}
 
 .header ul{
 	text-align:center;
@@ -87,30 +161,293 @@ header{
 }
 
 .header ul li a span{ 
-	color:white;
+	color:#c78c06;
+}
+
+li:nth-child(1){
+	background-color:#c78c06;
+}
+
+.hover{
+	color:#222;
+}
+/**************************************************
+                    Service Styling
+**************************************************/
+
+.digivolve{
+	background-color:#ffe6ac;
+	width:100%;
+}
+
+.digital{
+	font-size:xx-large;
+	font-weight:bold;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:10px;
+}
+
+#my-image-3{
+	width:100%;
+}
+
+.digiboi{
+	margin:10px;
+}
+
+.market{
+	background-color:#ffe6ac;
+	width:100%;
+}
+
+.mark{
+	font-size:xx-large;
+	font-weight:bold;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:10px;
+}
+
+#my-image-4{
+	width:100%;
+}
+
+.markboi{
+	margin:10px;
+}
+.youtube{
+	margin:10px;
+}
+
+.views{
+	background-color:#ffe6ac;
+	width:100%;
+}
+
+.video{
+	font-size:xx-large;
+	font-weight:bold;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:10px;
+}
+
+#my-image-5{
+	width:100%;
+}
+
+
+.webboi{
+	margin:10px;
+}
+
+.type{
+	background-color:#ffe6ac;
+	width:100%;
+}
+
+.web{
+	font-size:xx-large;
+	font-weight:bold;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:10px;
+}
+
+#my-image-6{
+	width:100%;
+}
+
+.news{
+	background-color:#ffe6ac;
+	width:100%;
+}
+
+.paper{
+	font-size:xx-large;
+	font-weight:bold;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:10px;
+}
+
+#my-image-7{
+	width:100%;
+}
+
+
+.print{
+	margin:10px;
+}
+
+button{
+    background-color: #222;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+}
+
+.dummytext{
+	padding:10px;
 }
 
 /**************************************************
-                    Article
+                    Team
 **************************************************/
 
-
-.welcome h2{
-    position:absolute;
-	top:70%;
-    text-align:center;
-    font-size:3.5rem;
-    color:white;
+.doe{
+	background-color:#ffe6ac;
+	margin-bottom:25px;
 }
 
-.welcome p{
-	position:absolute;
-	top:100%;
-    text-align:center;
-    font-size:1rem;
-    color:white;
+#my-image-9{
+	width:100%;
 }
 
-.connect{
-	
+.john{
+	font-size:xx-large;
+	font-weight:bold;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:10px;
+}
+
+.ceo{
+	border-bottom:4px solid #c78c06;
+	font-size:large;
+	font-weight:bold;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:10px;
+}
+
+.rite{
+	background-color:#ffe6ac;
+}
+
+#my-image-10{
+	width:100%;
+}
+
+.bob{
+	font-size:xx-large;
+	font-weight:bold;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:10px;
+}
+
+
+
+.cfo{
+	border-bottom:4px solid #c78c06;
+	font-size:large;
+	font-weight:bold;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:10px;
+}
+/**************************************************
+                    Contact
+**************************************************/
+
+.contact{
+	font-size:xx-large;
+	font-weight:bold;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:10px;
+}
+
+.send-us{
+	font-size:x-large;
+	font-weight:bold;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:10px;
+}
+
+#name{
+	font-size:15px;
+	width:100%;
+	padding:6px;
+}
+#email{
+	font-size:15px;
+	width:100%;
+	padding:6px;
+}
+#message{
+	font-size:15px;
+	width:100%;
+	padding:66px;
+}
+
+.formword{
+	padding:10px;
+}
+
+.send{
+	background-color:#222;
+	color:#c78c06;
+	padding:7px;
+	margin:7px;
+}
+
+.location{
+	font-size:x-large;
+	font-weight:bold;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:10px;
+}
+/**************************************************
+                    Table
+**************************************************/
+
+.hours{
+	font-size:x-large;
+	font-weight:bold;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:10px;
+}
+
+table{
+    width: 100%;
+}
+
+table, tr, th, td{
+    border: 1px solid black;
+}
+
+th, td{
+    padding: 13px;
+}
+
+th{
+    background-color: #ffe6ac;
+}
+
+/**************************************************
+                    Footer
+**************************************************/
+
+footer{
+	background-color:#222;
+	color:#c78c06;
+	padding:15px;
+}
+.unsplash{
+	padding:10px;
+}
+
+.span{
+	color:#c78c06;
+	text-decoration: underline;
 }

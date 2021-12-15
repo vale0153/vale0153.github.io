@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Final Project</title>
+    <link href="styles/icons.css" rel="stylesheet">
         <link href="styles/styles.css" rel="stylesheet">
         </head>
 
@@ -19,7 +20,7 @@
                 <nav class="header">
                   <ul>
                     <li>
-                      <a href="index.html">
+                      <a class="hover" href="index.html">
                           <span>Home</span>
                       </a>
                     </li>
@@ -45,103 +46,68 @@
                       </li>
                   </ul>
                 </nav>
-                  <form id="form"> 
-                    <input type="search" id="query" name="q" placeholder="Search...">
-                    <button class="search">Search</button>
+                <div class="search">
+                  <form action="index.html" method="post">
+                      <label for="search"></label>
+                      <input type="text" id="search" name="search" placeholder="search">
+                      <button class="hotdog" type="submit"><i class="icon icon-zoom"></i></button>
                   </form>
-              </header>
-              <article class="welcome">
-           <h2 class="welcome">Welcome to Three Star Media</h2>
-           <img id="my-image-b" src="images/main-banner.jpg" alt="Banner" title= "Main Banner"/>
+                </div>            
+                <img id="my-image-b" src="images/main-banner.jpg" alt="Banner" title= "Main Banner"/>
+           <div class="welcome-banner">
+           <h1>Welcome to Three Star Media</h2>
            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-         <nav>
-           <ul>
-          <li>
-            <a href="index.html">
-                <span class="connect">Connect with us</span>
-            </a>
-          </li>
-        </ul>
-         </nav>
-          </article>
+           <button class="connectyboi">Connect with us<i class="icon icon-right"></i></button>
+          </div>
+        </header>
 
-          <article class="about-us">
+          <div class="about-us">
             <img id="my-image-2" src="images/about-us.jpg" alt="Ping Pong" title= "About Us"/>
             <h2>About Us</h2>
             <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. "</p>
             <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
             
-          </article>
+          </div>
 
-          <article class="our-services">
-            <h3>Our Services</h3>
+            <h3 class="services">Our Services</h3>
+            <div class=digivolve>
             <img id="my-image-3" src="images/digital.jpg" alt="Phone" title= "Digital"/>
             <h3 class="digital">Digital Transformation</h3>
-            <p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
-            <nav>
-              <ul>
-              <li>
-                <a href="index.html">
-                    <span>Digital Plans</span>
-                </a>
-              </li>
-            </ul>
-             </nav>
-         
+            <p class="dummytext">"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
+            <button class="digiboi">Digital Plans<i class="icon icon-right"></i></button>
+            </div>
           
-            <h3 class="market">Marketing</h3> 
-             <img id="my-image-4" src="images/marketing.jpg" alt="Laptop" title= "Marketiing"/>
-            <p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
-            <nav>
-              <ul>
-              <li>
-                <a href="index.html">
-                    <span>Marketing Plans</span>
-                </a>
-              </li>
-            </ul>
-             </nav>
+            
+            <div class="market">
+            <img id="my-image-4" src="images/marketing.jpg" alt="Phone" title= "Marketing"/>
+            <h3 class="mark">Marketing</h3>
+            <p class="dummytext">"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
+            <button class="markboi">Marketing Plans<i class="icon icon-right"></i></button>
+            </div>
 
-
+            
+            <div class="views">
+            <img id="my-image-5" src="images/video.jpg" alt="Phone" title= "Video"/>
             <h3 class="video">Video Production</h3>
-            <img id="my-image-5" src="images/video.jpg" alt="YouTube" title= "Video"/>
-            <p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
-            <nav>
-              <ul>
-              <li>
-                <a href="index.html">
-                    <span>Video Plans</span>
-                </a>
-              </li>
-            </ul>
-             </nav>
+            <p class="dummytext">"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
+            <button class="youtube">Video Plans<i class="icon icon-right"></i></button>
+            </div>
 
+           
+            <div class="type">
+            <img id="my-image-6" src="images/web.jpg" alt="Phone" title= "Web"/>
+            <h3 class="web">Web Development</h3>
+            <p class="dummytext">"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
+            <button class="webboi">Web Plans<i class="icon icon-right"></i></button>
+            </div>
 
-             <h3 class="web">Web Development</h3>
-             <img id="my-image-6" src="images/web.jpg" alt="Coding" title= "Web"/>
-             <p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
-             <nav>
-               <ul>
-               <li>
-                 <a href="index.html">
-                     <span>Web Plans</span>
-                 </a>
-               </li>
-              </ul>
-              </nav>
-
-              <h3 class="print">Print</h3>
-              <img id="my-image-7" src="images/print.jpg" alt="Newspaper" title= "Print"/>
-              <p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
-              <nav>
-                <ul>
-                <li>
-                  <a href="index.html">
-                      <span>Print Plans</span>
-                  </a>
-                </li>
-              </ul>
-               </nav>
+            <div class=news>
+            <img id="my-image-7" src="images/print.jpg" alt="Phone" title= "Print"/>
+            <h3 class="paper">Print</h3>
+            <p class="dummytext">"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
+            <button class="print">Digital Plans<i class="icon icon-right"></i></button>
+            </div>
+           
 
                <h3 class="vision">Our Vision</h3>
                <img id="my-image-8" src="images/vision.jpg" alt="Goal" title= "Our Vision"/>
@@ -156,60 +122,80 @@
                 </ul>
                 </nav>
 
+                
                 <h4>Our Team</h4>
+                <div class="doe">
                 <img id="my-image-9" src="images/john.jpg" alt="CEO" title= "John Doe"/>
-                <h4 class="john">CEO and Co-owner</h4>
+                <h4 class="john">John Doe</h4>
+                <p class="ceo">CEO and Co-owner</p>
                 <p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
-             
+              </div>
+              <div class="rite">
                 <img id="my-image-10" src="images/bob.jpg" alt="CFO" title= "Bob Rite"/>
-                <h4 class="bob">CFO and Co-owner</h4>
+                <h4 class="bob">Bob Rite</h4>
+                <p class="cfo">CFO and Co-owner</p>
                 <p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
-          </article>
+              </div>
 
-          <h5>Contact Us!</h5>
-          <br>
-          <h5>Send us a message</h5>
+          <h5 class="contact">Contact Us</h5>
+        
+          <h5 class="send-us">Send us a message</h5>
 
-          <form action="thanks.html" method="post">
-            <label for="fullname">Full Name</label>
-            <input type="text" id="fullname"  name="fullname">
-            <br>
-            <label for="email">Email</label>
-            <input id="email" type="text" name="email">
-            <br>
-            <label for="message">Message</label>
-            <input id="message" name="message">
-            <button type="submit">Send</button>
+          <div class="formword">Full Name</div>
+          <form action="index.html" method="post">
+              <label for="name"></label>
+              <input id="name">
           </form>
+          <div class="formword">Email</div>
+          <form action="index.html" method="post">
+            <label for="email"></label>
+            <input id="email">
+        </form>
+        <div class="formword">Message</div>
+        <form action="index.html" method="post">
+          <label for="message"></label>
+          <input id="message">
+      </form>
+
+      <button class="send">Send</button>
+
+      <div class="hours">
+        Hours of Operation
+      </div>
 
           <table>
-            <caption>Hours of Operation</caption>
-         
-            <tbody>
-              <tr>
-                <td>Monday-Friday</td>
-                <td>9 AM-6 PM</td>
-              </tr>
-            </tbody>
+            
+            <tr>
+              <th>Days</th>
+              <th>Hours</th>
+            </tr>
+            <tr>
+              <td>Monday-Friday</td>
+              <td>9am-6pm</td>
+            </tr>
             <tr>
               <td>Saturday-Sunday</td>
               <td>Closed</td>
             </tr>
-          </tbody>
           </table>
           
+          <div class="location">
+            Location
+          </div>
           
           <div class="mapsEmbed">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d360079.48489780043!2d-76.24528283041633!3d45.16440006864717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1638408228590!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
           </div>
 
           <footer>
-            <h6>Copyright Info</h6>
+         
             &copy; Copyright Three Star Media, 2021
-              <h6>Image Source</h6>
+            
+              <div class="unsplash">
               All images taken from <a href="index.html">
-              <span>Unsplash</span>
+              <span class="span">Unsplash</span>
               </a>
+            </div>
           </footer>
         </div>
         </body>
